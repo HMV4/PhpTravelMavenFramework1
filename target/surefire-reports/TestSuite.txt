@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 61.857 sec <<< FAILURE! - in TestSuite
+bookTicket(com.PhpTravel.TravelBook)  Time elapsed: 36.538 sec  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index: 33, Size: 33
+	at com.PhpTravel.TravelBook.bookTicket(TravelBook.java:182)
+
