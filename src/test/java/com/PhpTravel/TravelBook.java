@@ -44,7 +44,7 @@ import SnapShotUtility.SnapshotUtilty;
            
             driver.manage().window().maximize();
             // driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-            wait_10 = new WebDriverWait(driver, 40);
+            wait_10 = new WebDriverWait(driver, 50);
             driver.get("http://www.phptravels.net/admin");
 
         }
