@@ -40,7 +40,7 @@ import SnapShotUtility.SnapshotUtilty;
         	//FileInputStream configFile=new FileInputStream("D:\\workspace\\PhpTravelMavenFramework1\\TravelConfig.properties");
         	prop.load(configFile);
         	
-            driver = new ChromeDriver();;;
+            driver = new ChromeDriver();;;//
            
             //driver.manage().window().maximize();
             // driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
