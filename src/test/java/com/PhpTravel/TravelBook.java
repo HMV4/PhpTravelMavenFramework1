@@ -22,7 +22,7 @@ import Excel.ExcelDataProvider;
 import SnapShotUtility.SnapshotUtilty;
 
     public class TravelBook {
-        static WebDriver driver;
+        static WebDriver driver;;;;;;;;;;;
         static WebDriverWait wait_10;;;;;;;
         static Properties prop=null;
 
