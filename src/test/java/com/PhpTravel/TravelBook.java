@@ -23,7 +23,7 @@ import SnapShotUtility.SnapshotUtilty;
 
     public class TravelBook {
         static WebDriver driver;;;;;;;;;;;
-        static WebDriverWait wait_10;;;;;;;
+        static WebDriverWait wait_10;
         static Properties prop=null;
 
         @BeforeSuite
@@ -40,7 +40,7 @@ import SnapShotUtility.SnapshotUtilty;
         	//FileInputStream configFile=new FileInputStream("D:\\workspace\\PhpTravelMavenFramework1\\TravelConfig.properties");
         	prop.load(configFile);
         	
-            driver = new ChromeDriver();;;//
+            driver = new ChromeDriver();;;//Driver
            
             //driver.manage().window().maximize();
             // driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
